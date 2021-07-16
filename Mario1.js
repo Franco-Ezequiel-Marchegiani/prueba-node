@@ -1,5 +1,19 @@
 console.log("Modifique este archivo");
+function suma(a,b){
+    return a+b;
+}
+let sumaDeDosNumeros = suma(50,75);
+console.log(sumaDeDosNumeros);
 
-console.log("Modifico esto de vuelta");
+let fechaActual = new Date ();
 
 console.log("AHORA SI TENGO QUE GENERAR EL BENDITO CONFLICTO");
+
+let anio = fechaActual.getFullYear();
+let mes = fechaActual.getMonth();
+let dia = fechaActual.getDate();
+
+let meses = ["Enero", "Febrero","Marzo","Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+console.log ("Hoy es el " + dia + " de " + meses[mes] + " de " + anio );
+
